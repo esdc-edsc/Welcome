@@ -13,5 +13,3 @@ assignees: ''
 **Group location:** <!-- link to group -->  
 **Team Name:**  
 **Team Leader:** <!-- link GitLab account -->
-
-/label ~team
