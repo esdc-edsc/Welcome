@@ -15,6 +15,30 @@ To achieve a Dev-Sec-Ops culture development teams must demonstrate self-suffici
 
 ### All Stages
 
+#### Continous Improvement
+
+Implement Dev-Sec-Ops key performance indicators to help identify areas where development team can improve.
+
+Accept that team failures will occur.
+Teams will learn from failures to Continuously Improve development processes and practices in all stages of Dev-Sec-Ops software development life cycle.
+
+Share lessons learned with Communities of Practice so that other development teams can benefit.
+
+> Involves: all CoPs & CoEs
+
+#### Work in the open
+
+Make source code repositories, task boards, build pipeline dashboards, non-sensitive production-monitoring data available (readable) to all of IITB (ESDC?). 
+
+Source code is open by default.
+Justification is required if parts of the code is to be made inaccessible.
+
+Will help the entire organization identify and address issues, bottlenecks in IT processes and procedures.
+
+Allows teams, communities of practice, and centres of excellence to see how other teams have addressed common issues.
+
+> Involves: all CoPs & CoEs
+
 ### Plan
 
 ### Code
