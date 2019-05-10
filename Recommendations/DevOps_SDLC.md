@@ -41,6 +41,41 @@ Allows teams, communities of practice, and centres of excellence to see how othe
 
 ### Plan
 
+#### Define expected outcomes for Sprint/Iteration
+
+Select existing or newly defined backlog items.
+
+Define/refine User stories, Acceptance Criteria and Work tasks to complete in this iteration.
+
+Target 20% of Sprint/Iteration tasks for reduction of any technical debt. 
+Technical debt reflects the implied cost of additional rework caused by choosing an easy solution now instead of using a better approach that would take longer. 
+
+**Artifacts**
+* Sprint/Iteration Acceptance criteria;
+* Product backlog;
+* Product technical debt backlog;
+
+> Involves: *Agile Practices (?)*
+
+#### Threat Modeling
+Rapid Risk Assessment.
+A 30-minute exercise at beginning of Sprint/Iteration.
+
+Identify and address security concerns as early as possible.
+
+**Artifacts** 
+* Risk Assessment document
+
+> Involves: IT Security
+
+#### Accessibility and Usability Modeling
+
+User interface prototype: layout, behaviour and navigation.
+
+Identify and address any accessibility and usability issues/concerns as early as possible.
+
+> Involves: Testing & Accessibility
+
 ### Code
 
 ### Build & Test
