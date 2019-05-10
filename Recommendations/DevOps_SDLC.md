@@ -150,6 +150,101 @@ The effectiveness of code reviews depend on the speed of reviewing.
 
 ### Build & Test
 
+#### Continuous Integration
+
+All automated tests must pass.
+
+Build Artifacts published to central ‘snapshot’ repository.
+
+**Artifacts**
+* Pull request history;
+* Branch (coder working copy) history;
+* Integrated mainline branch;
+* Automated test logs;
+* Snapshot build artifacts;
+
+> Involves: Developer
+
+#### Automated Build
+
+The build needs to complete rapidly, to identify and address problems with integration quickly.
+
+> Involves: Developer
+
+#### Automated Artifact CVE Scans	
+
+Automated build artifact scanning for CVEs. 
+Will require tuning to reduce false positives.	
+
+**Artifacts**
+* Artifact repository automatically generated reports for CVE scans.	
+
+> Involves: IT Security
+
+#### Automated Artifact License Scans
+
+Automated build artifact scanning for license compliance.	
+
+**Artifacts**
+* Artifact repository automatically generated reports for license compliance.
+
+> Involves: Developer
+
+#### Automated Smoke Test
+
+A simplified test that ensures that build artifacts actually run and basic functionality is working before running more in depth tests.
+
+Verify expected VMs/Containers/Services are running.
+
+Port scans.
+
+Connectivity tests.	
+
+**Artifacts**
+* Smoke Test log(s).	
+
+> Involves: Testing
+
+#### Automated Acceptance Testing	
+
+Done during end to end testing	
+
+**Artifacts**
+* Acceptance test log(s).	
+
+> Involves: Testing
+
+#### Automated Accessibility Testing	
+
+Done during end to end testing	
+
+**Artifacts**
+* Accessibility test log(s).	
+
+> Involves: Testing & Accessibility
+
+#### Automated Compliance Testing	
+
+Verify that all the required test artifacts were created.	
+
+**Artifacts**
+* Compliance test results.	
+
+> Involves: Testing
+
+#### Automated Attack Testing (App Security  Testing)
+
+DAST: Behavioral Driven Design from malicious actors point of view
+* XSS
+* SQL Injection
+* SSL/TLS	
+
+**Artifacts**
+Attack test results.	
+
+> Involves: IT Security
+
+
 ### Release (Staging)
 
 ### Deploy
