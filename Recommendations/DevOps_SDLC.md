@@ -78,6 +78,76 @@ Identify and address any accessibility and usability issues/concerns as early as
 
 ### Code
 
+#### Development Standards
+
+Formatting Standards;
+Implement departmental standards for Code “Linting”;
+Appropriate variable scoping;
+Secrets management;
+Adopt Git branching / versioning best practices;
+
+**Artifacts**
+* Versioned source code
+* Versioned Automated Test/Pipeline Scripts
+* Versioned Infrastructure as Code
+
+> Involves: Developer
+
+#### Unit Testing
+
+Apply unit testing methodology, such as Test Driven Development (TDD)
+
+**Artifacts**
+* Versioned Unit tests
+
+> Involves: Developer
+
+#### Test Data Management
+
+Test data for each scenario of the code coverage. i.e.: Input and expected results
+
+**Artifacts**
+* Test data
+* SQL ( DDL, DML) scripts
+
+> Involves: Testing, Storage/Database (CDO?)
+
+#### Continuous Integration
+
+Practice of merging all coder working copies to a shared mainline several times a day.
+
+Encourage coders to work with smaller changes so that integration issues are more easily debugged. 
+
+**Artifacts**
+* Pull request history;
+* Branch (coder working copy) history;
+* Integrated mainline branch;
+
+> Involves: Developer
+
+#### Automated Static Code Analysis
+
+Goal is to keep it fast. 
+Shallow scans on code check-in, deeper scans nightly/weekly.
+
+**Artifacts**
+* Static Code Analysis log/results.
+
+> Involves: IT Security
+
+#### Code Review
+
+Initiated on shared mainline merge request. (Git pull request)
+
+Encourage coders to work with smaller changes to keep reviews effective. 
+The effectiveness of code reviews depend on the speed of reviewing. 
+
+**Artifacts**
+* Code reviewer comments;
+* Mainline merge history;
+
+> Involves: Developer
+
 ### Build & Test
 
 ### Release (Staging)
