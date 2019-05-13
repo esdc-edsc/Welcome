@@ -310,6 +310,58 @@ A simplified test that ensures that production deployment actually runs and basi
 
 ### Operate & Monitor
 
+#### Read access for monitoring production
+
+To support production applications development teams need access to lots of data. Examples :
+*	Visibility and notifications around all application errors
+* Access to centralized aggregated log files for viewing and searching
+*	Basic server utilization trends and stats. (e.g. CPU, memory, etc)
+*	Recording and alerting of key application metrics (KPIs)
+*	Tracking of application web page load times
+*	Ability to access the application database and run test queries
+*	User Feedback: encourage user feedback and store it.
+
+**Artifacts**
+* Updates to product backlogs based on production monitoring data.
+
+> Involves: Operations
+
+#### Automated Artifact CVE Scans
+
+Automated build artifact scanning for CVEs. 
+
+**Artifacts**
+* Artifact repository automatically generated reports for CVE scans
+
+> Involves: IT Security
+
+#### Automated Artifact License Scans
+
+Automated build artifact scanning for license compliance.
+
+**Artifacts**
+* Artifact repository automatically generated reports for license compliance
+
+> Involves: Developer
+
+#### Attack monitoring
+
+To properly address threats to production application development teams need access to data of what attackers are actually attempting.
+
+**Artifacts**
+* Updates to product backlogs and threat models to address attacks actually occurring in production.
+
+> Involves: IT Security
+
+#### Accessibility and Usability monitoring
+
+To properly address accessibility and/or usability application development teams need access to telemetry data that gives metrics on how users are actually interacting with UI.
+
+**Artifacts**
+* Updates to product backlogs to address UI accessibility and usability concerns based on actual use in production
+
+> Involves: Testing & Accessibility
+
 ## DEV-SEC-OPS Development Team Composition
 
 In a Dev-Sec-Ops culture, development teams are responsible for the planning, development, operation and maintenance of reliable, secure and accessible software that the team produces.
