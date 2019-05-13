@@ -240,14 +240,73 @@ DAST: Behavioral Driven Design from malicious actors point of view
 * SSL/TLS	
 
 **Artifacts**
-Attack test results.	
+* Attack test results.	
 
 > Involves: IT Security
 
-
 ### Release (Staging)
 
+#### Deploy to Staging Environment
+
+Deployment to a staging environment. 
+
+#### Manual Tests
+
+Accessibility & User Acceptance Tests
+
+**Artifacts**
+* Manual test reports/results
+* Final approval before publish to Production
+
+> Involves: Accessibility Testing
+
+#### Publish Release Artifacts
+
+Build Artifacts published to ‘Release’ repository.
+
+Centralized ‘Release’ Artifact repository (or repositories) simplify CVE and License scanning/checks.
+
+Use tags on release artifacts to link to source code.
+
+**Artifacts**
+* Release build artifacts
+
+#### Compliance Review
+
+Verify previous processes and procedures followed. Check ‘Audit Artifacts’. 
+
+**Artifacts**
+* Compliance Review results.
+
+> Involves: Release Management
+
 ### Deploy
+
+#### Automated Deployment to Production
+
+*Manually triggered* automated deployment.
+
+Auditability and Accountability of deployment to production
+
+Only ‘Release’ repository artifacts deploy to production.
+
+Deployment option examples:
+*	Blue, Green
+*	Canary
+
+**Artifacts**
+Deployment Audit log (Who, When, What etc.).
+
+> Involves: Operations
+
+#### Automated Smoke Test
+
+A simplified test that ensures that production deployment actually runs and basic functionality is working.
+
+**Artifacts**
+* Smoke Test log(s)
+
+> Involves: Testing
 
 ### Operate & Monitor
 
