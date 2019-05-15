@@ -1,5 +1,8 @@
 # DevOps SDLC 
+
 Dev-Sec-Ops Software Development Life Cycle
+
+_This document is currently a draft_
 
 ## Expected Development Team Behaviours in a DevOps SDLC
 
