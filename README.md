@@ -15,6 +15,7 @@ ESDC has a few other organization groups on diffrent platforms where teams can a
 
 We have a number of starter projects that will help you start developing in GitHub or other Git Platforms.
 
+* [Security Requirements](guides/security.md) - These will help you keep your code safe, and are just good practices to have.
 * [ESDC Templates](https://gccode.ssc-spc.gc.ca/iitb-dgiit/esdc-templates) (internal) - Guides for writing standard files all Git repos expect to have.
 * [ESDC Development Setup](https://github.com/esdc-edsc/esdc-development-setup) - Making sure you can connect to External Git repos. It also has some Git tricks.
 
