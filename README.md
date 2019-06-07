@@ -23,3 +23,8 @@ We have a number of starter projects that will help you start developing in GitH
 
 * [Mobile Technology Solutions](https://github.com/MTS-STM)
 * [Developer Experince](https://github.com/esdc-devx)
+
+## Highlighted Groups
+
+* [GCDevOps League](https://github.com/gcdevops)
+* [Canada.ca](https://github.com/canada-ca/)
