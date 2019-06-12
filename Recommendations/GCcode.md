@@ -44,14 +44,14 @@ Each person working on the project stored in GCCode from any area (Developers, T
 This refers to whether your project is Public, Internal or Private.
 
 Unless there is a specific reason to hide information the project should be public. 
-If you think you have a good reason for it to be private, double check your reasoning and then consider making only the one part (Issues or Merge requests or …) of your application private.
+If you think you have a good reason for it to be private, double check your reasoning and then consider making only the one part (Issues or Merge requests or …) of your project private.
 
 #### Merge request settings
 
 The Merge method you have selected should depend on the [branching model](#branches) you are using. 
 
-If you are using the Enterprise method, your Merge method should be Merge commit.  
-If you are using the Light method (Continuous Deployment), your Merge method should be Merge commit with semi-linear history.
+If you are using the Enterprise method, your Merge method should be *Merge commit*.  
+If you are using the Light method (Continuous Deployment), your Merge method should be *Fast-forward merge*.
 
 The project should also have the following checked/enabled:
 
@@ -66,7 +66,7 @@ The group should be the [Team Group](#team-group) or a [Sub Group](#sub-group) o
 ### Code
 
 All the code related to the project should be in the Repository inclusive of any build scripts. 
-Secrets should not be kept in GCcode as it doesn’t contain the proper security measures. 
+Secrets should not be kept in GCcode as it is not rated for protected information. 
 Secrets in this case mean any hash keys, DB passwords or anything of the like.
 
 *Note: Our version of GitLab currently only supports PostgresSQL databases. 
@@ -125,14 +125,13 @@ The Tag name should be the version, the Message should in a few words indicate w
 
 ### Issues
 
-You should use issues for everything, providing good labels and names will allow you find them later.
+You should use issues for tracking all changes to the project, providing good labels and names will allow you find them later. 
 
 #### Labels
 
-We recommend that you start with the "key" labels from the project mentioned bellow and add more as it helps you organize your project. 
+We recommend that you start with the "key" labels from [ESDC Labels project](https://gccode.ssc-spc.gc.ca/iitb-dgiit/esdc-labels) to add default labels to your project or group and add more as it helps you organize your project. 
 You should have labels that identify key parts of your application. 
 You should add labels to help with the flow of your team’s processes.
-You can use the ESDC Labels project to add default labels to your project or group.
 
 #### Milestones
 
@@ -141,12 +140,10 @@ There should also be a milestone for every feature and release branch.
 
 ### Merge Requests
 
-- Should be created from the Issue (in GCCode) when creating your Branch
+- Should be created from the Issue (in GCcode) when creating your Branch
 - Your merge requests should never be merged by the person who made the changes.
 - The person making the merge must be reviewing the code changes and commenting on anything they don’t fully understand.
 - Merge request should be between 1 and 200 line changes. (Some exceptions should be allowed)
-- When developing you should be merging once per day from your work branch to the development branch, even if the issue isn't completely fixed. (except if your code doesn’t compile)
-- When merging don't delete the branch, this can be done later and it might save you if the merge doesn't go as expected.
 
 ### CI / CD
 
