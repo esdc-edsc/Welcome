@@ -2,7 +2,8 @@
 
 Dev-Sec-Ops Software Development Life Cycle
 
-_This document is currently a draft_
+Published: _This document is currently a draft_  
+Updated: April 24, 2019 (by: [@gocGrabinski](https://github.com/gocGrabinski), [@jeanbenoitrochon](https://github.com/jeanbenoitrochon))
 
 ## Expected Development Team Behaviours in a DevOps SDLC
 
