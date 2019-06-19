@@ -30,9 +30,15 @@ ESDC has a few other organization groups on diffrent platforms where teams can a
 * [GCCode](https://gccode.ssc-spc.gc.ca/iitb-dgiit) (internal)
 * [GitLab](https://gitlab.com/esdc-edsc)
 
-### Team Organizations in GitHub
+### CoP & CoE Organizations
 
-ESDC Teams that have their own organization.
+ESDC Community of Practices and Community of Exelence groups that have an organization in GitHub.
+
+* [Developer's Community of Practice](https://github.com/esdc-devcop)
+
+### Team Organizations
+
+ESDC Teams that have their own organization in GitHub.
 
 * [Mobile Technology Solutions](https://github.com/MTS-STM)
 * [Developer Experince](https://github.com/esdc-devx)
