@@ -21,9 +21,9 @@ These are some recommendations for different aspects of development that will he
 - [DevOps SDLC](Recommendations/DevOps_SDLC.md)
 - [GCcode Recommendation](Recommendations/GCcode.md)
 
-## Groups & Ogranizations Reference
+## Groups & Organizations Reference
 
-### ESDC Ogranization Groups
+### ESDC Organization Groups
 
 ESDC has a few other organization groups on different platforms where teams can also store code.
 
