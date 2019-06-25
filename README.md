@@ -18,8 +18,8 @@ We have a few projects and documents to help ESDC teams start developing on GitH
 
 These are some recommendations for different aspects of development that will help define how you build software.
 
-- [DevOps SDLC](Recommendations/DevOps_SDLC.md)
-- [GCcode Recommendation](Recommendations/GCcode.md)
+* [DevOps SDLC](Recommendations/DevOps_SDLC.md)
+* [GCcode Recommendation](Recommendations/GCcode.md)
 
 ## Groups & Organizations Reference
 
@@ -42,6 +42,7 @@ ESDC Teams that have their own organization in GitHub.
 
 * [Mobile Technology Solutions](https://github.com/MTS-STM)
 * [Developer Experience](https://github.com/esdc-devx)
+* [Stratégie, Achitecture et Relations d'Affaires - Strategy, Architecture and Business Relations](https://github.com/sara-sabr)
 
 ### Other Highlighted Reference Groups
 
