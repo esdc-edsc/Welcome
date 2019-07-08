@@ -8,10 +8,10 @@ Any teams in Employment and Social Development Canada that want to host code und
 
 ### Starter Tools
 
-We have a few projects and documents to help ESDC teams start developing on GitHub or other Git platforms faster.
+There are few projects and guides to help teams start developing on GitHub or other Git platforms faster.
 
 * [Security Requirements](/Guides/Security.md) - These will help you keep your code safe, and are just good practices to have.
-* [ESDC Templates](https://gccode.ssc-spc.gc.ca/iitb-dgiit/esdc-templates) (internal) - Guides for writing standard files all Git repos expect to have.
+* [Templates](https://github.com/esdc-edsc/template-gabarit) - Templates for standard files all Git repos should have.
 * [ESDC Development Setup](https://github.com/esdc-edsc/esdc-development-setup) - Making sure you can connect to External Git repos. It also has some Git tricks.
 
 ### Recommendations
