@@ -12,6 +12,7 @@ There are few projects and guides to help teams start developing on GitHub or ot
 
 * [Security Requirements](/Guides/Security.md) - These will help you keep your code safe, and are just good practices to have.
 * [Templates](https://github.com/esdc-edsc/template-gabarit) - Templates for standard files all Git repos should have.
+* [Label Generator](https://github.com/esdc-edsc/label-generator) - Adds standard labels to your project for every day use in development.
 * [ESDC Development Setup](https://github.com/esdc-edsc/esdc-development-setup) - Making sure you can connect to External Git repos. It also has some Git tricks.
 
 ### Recommendations
