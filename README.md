@@ -43,6 +43,7 @@ ESDC Teams that have their own organization in GitHub.
 * [Mobile Technology Solutions](https://github.com/MTS-STM)
 * [Developer Experience](https://github.com/esdc-devx)
 * [Stratégie, Achitecture et Relations d'Affaires - Strategy, Architecture and Business Relations](https://github.com/sara-sabr)
+* [Centre d'expertise des normes Web - Web Standards Centre of Expertise](https://github.com/cenw-wscoe)
 
 ### Other Highlighted Reference Groups
 
