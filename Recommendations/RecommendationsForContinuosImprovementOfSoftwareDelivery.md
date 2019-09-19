@@ -1,11 +1,11 @@
-# Recommended Practices for the Continous Improvement of Software Delivery in ESDC
+# Recommended Practices for the Continuous Improvement of Software Delivery in ESDC
 
 Published: _This document is currently a draft_  
 Updated: September 19, 2019 (by: [@gocGrabinski](https://github.com/gocGrabinski), [@jeanbenoitrochon](https://github.com/jeanbenoitrochon))
 
 ## Purpose of this living document.
 
-The purpose of this document is to identify and recommended practices and behaviors that all software development teams can adopt to improve software delivery performance in ESDC. This document is intended to be a living document that is continuosly revised as development teams adopt and experiment with these recommendations.
+The purpose of this document is to identify and recommended practices and behaviors that all software development teams can adopt to improve software delivery performance in ESDC. This document is intended to be a living document that is continuously revised as development teams adopt and experiment with these recommendations.
 
 ## Software Delivery Performance Metrics
 
@@ -22,5 +22,5 @@ The initial objective is to put in place behaviors and practice that will enable
 3. Improve the time to restore a service after an incident that impacts users *to less than one day for all IITB products*.
 4. Reduce the percentage of incidents or degraded service after changes/deployments to production *to between 0 and 15% for all IITB products*.
 
-The ulitmate goal is to achieve a culture of continuos improvement in software devlivery within ESDC which would enable the department to achieve and surpass these initial objectives.
+The ulitmate goal is to achieve a culture of continuous improvement in software devlivery within ESDC which would enable the department to achieve and surpass these initial objectives.
 
