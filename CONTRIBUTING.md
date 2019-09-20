@@ -12,10 +12,9 @@ If this is your first time contributing on GitHub, don't worry! Let us know if y
 
 The “Welcome” project in ESDC org (master branch) used to publish recommendations and guides (how to).
 Draft documents can be created either in a branch in ESDC or a branch in the Fork on DevCoP (prefix with `draft-`).
-Initial draft doesn’t require review, but any changes to the draft require review via a PR. 
+Initial draft doesn’t require review, but any changes to the draft require review via a PR.
 The publish of the doc will also have a final review via a PR.
 
 ### Security
 
 **Do not post any security issues on the public repository!** See [SECURITY.md](SECURITY.md)
-
