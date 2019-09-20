@@ -12,4 +12,4 @@ assignees: ''
 
 **Group location:** <!-- link to group -->  
 **Team Name:**  
-**Team Leader:** <!-- link GitLab account -->
+**Team Leader:** <!-- link to GitHub account -->
