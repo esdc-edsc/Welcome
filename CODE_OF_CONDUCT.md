@@ -1,4 +1,10 @@
-# Contributor Covenant Code of Conduct
+# Contributor Covenant Code of Conduct for the `Welcome` project
+
+Contributors to repositories hosted in `Welcome` are expected to follow the Contributor Covenant Code of Conduct, and those working within Government are also expected to follow the Values and Ethics Code for the Public Sector
+
+## Values and Ethics Code for the Public Sector
+
+The [Values and Ethics Code for the Public Sector](https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=25049)
 
 ## Our Pledge
 
@@ -30,20 +36,25 @@ Project maintainers have the right and responsibility to remove, edit, or reject
 
 ## Scope
 
-This Code of Conduct applies both within project spaces and in public spaces when an individual is representing the project, members or ESDC. 
-Examples of representing a project, members or ESDC include using an official project e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event. 
+This Code of Conduct applies both within project spaces and in public spaces when an individual is representing the project, members or ESDC.
+Examples of representing a project, members or ESDC include using an official project e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event.
+
 Representation of a project may be further defined and clarified by project maintainers.
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at EDSC.DGIIT.SCS-SDS.IITB.ESDC@hrsdc-rhdcc.gc.ca. 
-All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. 
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at EDSC.DGIIT.SCS-SDS.IITB.ESDC@hrsdc-rhdcc.gc.ca.
+All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances.
 The project team is obligated to maintain confidentiality with regard to the reporter of an incident.
 Further details of specific enforcement policies may be posted separately.
 
 Project maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project's leadership.
 
-## Attribution
+## Attribution [EN]
 
 This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4,
-available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html
+available at [https://www.contributor-covenant.org/version/1/4/code-of-conduct.html](https://www.contributor-covenant.org/version/1/4/code-of-conduct.html)
+
+[homepage]: https://www.contributor-covenant.org
+
+This Code of Conduct is also inspired by GDS' `alphagov` [Code of conduct](https://github.com/alphagov/code-of-conduct)
