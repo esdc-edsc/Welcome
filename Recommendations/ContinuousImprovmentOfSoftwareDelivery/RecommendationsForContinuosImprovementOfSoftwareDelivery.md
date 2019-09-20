@@ -9,13 +9,13 @@ The purpose of this document is to identify and recommended practices and behavi
 
 ## Software Delivery Performance Metrics
 
-All practices and behaviors identified in this document are focused on improving performance in these four softare delivery metrics ( Nicole Forsgren,  Jez Humble,  Gene Kim (March 27, 2018). _Accelerate_. Retrieved from ["https://itrevolution.com/book/accelerate/"](https://itrevolution.com/book/accelerate/)):
+All practices and behaviors identified in this document are focused on improving performance in these four software delivery metrics ( Nicole Forsgren,  Jez Humble,  Gene Kim (March 27, 2018). _Accelerate_. Retrieved from ["https://itrevolution.com/book/accelerate/"](https://itrevolution.com/book/accelerate/)):
 1. Improve production deployment frequencies.
 2. Improve the time between commit of code to that code successfully running in production.
 3. Improve the time to restore a service after an incident that impacts users.
 4. Reduce the percentage of incidents or degraded service after changes/deployments to production.
 
-## Software Delivery Performance Goals
+## Software Delivery Performance Objectives
 The initial objective is to put in place behaviors and practice that will enable ESDC to reach a "medium" level of Software Delivery Performance. More specifically:
 1. Improve production deployment frequencies *to between once per week and once per month for all IITB products*.
 2. Improve the time between commit of code to that code successfully running in production *to between one week and one month for all IITB products*.
@@ -24,3 +24,8 @@ The initial objective is to put in place behaviors and practice that will enable
 
 The ulitmate goal is to achieve a culture of continuous improvement in software devlivery within ESDC which would enable the department to achieve and surpass these initial objectives.
 
+---
+## Recommended Practices and Behaviours
+
+* [Use Git Based Version Control](RecommendationGitForVersionControl.md)
+* [Use Git Based Collaborative Development Environment](RecommendationGitBasedCollaborativeDevelopmentEnvironment.md)
