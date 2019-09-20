@@ -1,4 +1,4 @@
-# DevOps SDLC 
+# DevOps SDLC
 
 Dev-Sec-Ops Software Development Life Cycle
 
@@ -8,7 +8,7 @@ Updated: April 24, 2019 (by: [@gocGrabinski](https://github.com/gocGrabinski), [
 ## Expected Development Team Behaviours in a DevOps SDLC
 
 These tables lists a set of expected behaviors for development teams for each stage of a Dev-Sec-Ops software development life cycle.
-This is not an exhaustive list but it gives an indication of the many behaviors a development team needs to demonstrate in a Dev-Sec-Ops culture. 
+This is not an exhaustive list but it gives an indication of the many behaviors a development team needs to demonstrate in a Dev-Sec-Ops culture.
 
 The establishment and implementation of Dev-Sec-Ops key performance indicators (DSO KPIs) will help development teams identify in what behaviors they need improvement as they move to Dev-Sec-Ops.
 The Communities of Practice and/or the Centres of Excellence should establish and maintain standard DSO KPI’s for the identified behaviours.
@@ -32,7 +32,7 @@ Share lessons learned with Communities of Practice so that other development tea
 
 #### Work in the open
 
-Make source code repositories, task boards, build pipeline dashboards, non-sensitive production-monitoring data available (readable) to all of IITB (ESDC?). 
+Make source code repositories, task boards, build pipeline dashboards, non-sensitive production-monitoring data available (readable) to all of IITB (ESDC?).
 
 Source code is open by default.
 Justification is required if parts of the code is to be made inaccessible.
@@ -51,10 +51,11 @@ Select existing or newly defined backlog items.
 
 Define/refine User stories, Acceptance Criteria and Work tasks to complete in this iteration.
 
-Target 20% of Sprint/Iteration tasks for reduction of any technical debt. 
-Technical debt reflects the implied cost of additional rework caused by choosing an easy solution now instead of using a better approach that would take longer. 
+Target 20% of Sprint/Iteration tasks for reduction of any technical debt.
+Technical debt reflects the implied cost of additional rework caused by choosing an easy solution now instead of using a better approach that would take longer.
 
-**Artifacts**
+##### Artifacts - Define expected outcomes for Sprint/Iteration
+
 * Sprint/Iteration Acceptance criteria;
 * Product backlog;
 * Product technical debt backlog;
@@ -62,12 +63,14 @@ Technical debt reflects the implied cost of additional rework caused by choosing
 > Involves: *Agile Practices (?)*
 
 #### Threat Modeling
+
 Rapid Risk Assessment.
 A 30-minute exercise at beginning of Sprint/Iteration.
 
 Identify and address security concerns as early as possible.
 
-**Artifacts** 
+##### Artifacts - Threat Modeling
+
 * Risk Assessment document
 
 > Involves: IT Security
@@ -90,7 +93,8 @@ Appropriate variable scoping;
 Secrets management;
 Adopt Git branching / versioning best practices;
 
-**Artifacts**
+##### Artifacts - Development Standards
+
 * Versioned source code
 * Versioned Automated Test/Pipeline Scripts
 * Versioned Infrastructure as Code
@@ -101,7 +105,8 @@ Adopt Git branching / versioning best practices;
 
 Apply unit testing methodology, such as Test Driven Development (TDD)
 
-**Artifacts**
+##### Artifacts - Unit Testing
+
 * Versioned Unit tests
 
 > Involves: Developer
@@ -110,7 +115,8 @@ Apply unit testing methodology, such as Test Driven Development (TDD)
 
 Test data for each scenario of the code coverage. i.e.: Input and expected results
 
-**Artifacts**
+##### Artifacts - Test Data Management
+
 * Test data
 * SQL ( DDL, DML) scripts
 
@@ -120,9 +126,10 @@ Test data for each scenario of the code coverage. i.e.: Input and expected resul
 
 Practice of merging all coder working copies to a shared mainline several times a day.
 
-Encourage coders to work with smaller changes so that integration issues are more easily debugged. 
+Encourage coders to work with smaller changes so that integration issues are more easily debugged.
 
-**Artifacts**
+##### Artifacts - Continuous Integration
+
 * Pull request history;
 * Branch (coder working copy) history;
 * Integrated mainline branch;
@@ -131,10 +138,11 @@ Encourage coders to work with smaller changes so that integration issues are mor
 
 #### Automated Static Code Analysis
 
-Goal is to keep it fast. 
+Goal is to keep it fast.
 Shallow scans on code check-in, deeper scans nightly/weekly.
 
-**Artifacts**
+##### Artifacts - Automated Static Code Analysis
+
 * Static Code Analysis log/results.
 
 > Involves: IT Security
@@ -143,10 +151,11 @@ Shallow scans on code check-in, deeper scans nightly/weekly.
 
 Initiated on shared mainline merge request. (Git pull request)
 
-Encourage coders to work with smaller changes to keep reviews effective. 
-The effectiveness of code reviews depend on the speed of reviewing. 
+Encourage coders to work with smaller changes to keep reviews effective.
+The effectiveness of code reviews depend on the speed of reviewing.
 
-**Artifacts**
+##### Artifacts - Code Review
+
 * Code reviewer comments;
 * Mainline merge history;
 
@@ -154,13 +163,14 @@ The effectiveness of code reviews depend on the speed of reviewing.
 
 ### Build & Test
 
-#### Continuous Integration
+#### Continuous Build & Test Integration
 
 All automated tests must pass.
 
 Build Artifacts published to central ‘snapshot’ repository.
 
-**Artifacts**
+##### Artifacts - Continuous Build & Test Integration
+
 * Pull request history;
 * Branch (coder working copy) history;
 * Integrated mainline branch;
@@ -175,21 +185,23 @@ The build needs to complete rapidly, to identify and address problems with integ
 
 > Involves: Developer
 
-#### Automated Artifact CVE Scans	
+#### Automated Artifact CVE Scan
 
-Automated build artifact scanning for CVEs. 
-Will require tuning to reduce false positives.	
+Automated build artifact scanning for CVEs.
+Will require tuning to reduce false positives.
 
-**Artifacts**
-* Artifact repository automatically generated reports for CVE scans.	
+##### Artifacts - Automated Artifact CVE Scan
+
+* Artifact repository automatically generated reports for CVE scans.
 
 > Involves: IT Security
 
-#### Automated Artifact License Scans
+#### Automated Artifact License Scan
 
-Automated build artifact scanning for license compliance.	
+Automated build artifact scanning for license compliance.
 
-**Artifacts**
+##### Artifacts - Automated Artifact License Scan
+
 * Artifact repository automatically generated reports for license compliance.
 
 > Involves: Developer
@@ -202,49 +214,55 @@ Verify expected VMs/Containers/Services are running.
 
 Port scans.
 
-Connectivity tests.	
+Connectivity tests.
 
-**Artifacts**
-* Smoke Test log(s).	
+##### Artifacts - Automated Smoke Test
 
-> Involves: Testing
-
-#### Automated Acceptance Testing	
-
-Done during end to end testing	
-
-**Artifacts**
-* Acceptance test log(s).	
+* Smoke Test log(s).
 
 > Involves: Testing
 
-#### Automated Accessibility Testing	
+#### Automated Acceptance Testing
 
-Done during end to end testing	
+Done during end to end testing
 
-**Artifacts**
-* Accessibility test log(s).	
+##### Artifacts - Automated Acceptance Testing
+
+* Acceptance test log(s).
+
+> Involves: Testing
+
+#### Automated Accessibility Testing
+
+Done during end to end testing
+
+##### Artifacts - Automated Accessibility Testing
+
+* Accessibility test log(s).
 
 > Involves: Testing & Accessibility
 
-#### Automated Compliance Testing	
+#### Automated Compliance Testing
 
-Verify that all the required test artifacts were created.	
+Verify that all the required test artifacts were created.
 
-**Artifacts**
-* Compliance test results.	
+##### Artifacts - Automated Compliance Testing
+
+* Compliance test results.
 
 > Involves: Testing
 
-#### Automated Attack Testing (App Security  Testing)
+#### Automated Attack Testing (App Security Testing)
 
 DAST: Behavioral Driven Design from malicious actors point of view
+
 * XSS
 * SQL Injection
-* SSL/TLS	
+* SSL/TLS
 
-**Artifacts**
-* Attack test results.	
+##### Artifacts - Automated Attack Testing
+
+* Attack test results.
 
 > Involves: IT Security
 
@@ -252,13 +270,14 @@ DAST: Behavioral Driven Design from malicious actors point of view
 
 #### Deploy to Staging Environment
 
-Deployment to a staging environment. 
+Deployment to a staging environment.
 
 #### Manual Tests
 
 Accessibility & User Acceptance Tests
 
-**Artifacts**
+##### Artifacts - Manual Tests
+
 * Manual test reports/results
 * Final approval before publish to Production
 
@@ -272,14 +291,16 @@ Centralized ‘Release’ Artifact repository (or repositories) simplify CVE and
 
 Use tags on release artifacts to link to source code.
 
-**Artifacts**
+##### Artifacts - Publish Release Artifacts
+
 * Release build artifacts
 
 #### Compliance Review
 
-Verify previous processes and procedures followed. Check ‘Audit Artifacts’. 
+Verify previous processes and procedures followed. Check ‘Audit Artifacts’.
 
-**Artifacts**
+##### Artifacts - Compliance Review
+
 * Compliance Review results.
 
 > Involves: Release Management
@@ -295,19 +316,22 @@ Auditability and Accountability of deployment to production
 Only ‘Release’ repository artifacts deploy to production.
 
 Deployment option examples:
-*	Blue, Green
-*	Canary
 
-**Artifacts**
+* Blue, Green
+* Canary
+
+##### Artifacts - Automated Deployment to Production
+
 Deployment Audit log (Who, When, What etc.).
 
 > Involves: Operations
 
-#### Automated Smoke Test
+#### Automated Smoke Tests
 
 A simplified test that ensures that production deployment actually runs and basic functionality is working.
 
-**Artifacts**
+##### Artifacts - Automated Smoke Tests
+
 * Smoke Test log(s)
 
 > Involves: Testing
@@ -317,24 +341,27 @@ A simplified test that ensures that production deployment actually runs and basi
 #### Read access for monitoring production
 
 To support production applications development teams need access to lots of data. Examples :
-*	Visibility and notifications around all application errors
-* Access to centralized aggregated log files for viewing and searching
-*	Basic server utilization trends and stats. (e.g. CPU, memory, etc)
-*	Recording and alerting of key application metrics (KPIs)
-*	Tracking of application web page load times
-*	Ability to access the application database and run test queries
-*	User Feedback: encourage user feedback and store it.
 
-**Artifacts**
+* Visibility and notifications around all application errors
+* Access to centralized aggregated log files for viewing and searching
+* Basic server utilization trends and stats. (e.g. CPU, memory, etc)
+* Recording and alerting of key application metrics (KPIs)
+* Tracking of application web page load times
+* Ability to access the application database and run test queries
+* User Feedback: encourage user feedback and store it.
+
+##### Artifacts - Read access for monitoring production
+
 * Updates to product backlogs based on production monitoring data.
 
 > Involves: Operations
 
 #### Automated Artifact CVE Scans
 
-Automated build artifact scanning for CVEs. 
+Automated build artifact scanning for CVEs.
 
-**Artifacts**
+##### Artifacts - Automated Artifact CVE Scans
+
 * Artifact repository automatically generated reports for CVE scans
 
 > Involves: IT Security
@@ -343,7 +370,8 @@ Automated build artifact scanning for CVEs.
 
 Automated build artifact scanning for license compliance.
 
-**Artifacts**
+##### Artifacts - Automated Artifact License Scans
+
 * Artifact repository automatically generated reports for license compliance
 
 > Involves: Developer
@@ -352,7 +380,8 @@ Automated build artifact scanning for license compliance.
 
 To properly address threats to production application development teams need access to data of what attackers are actually attempting.
 
-**Artifacts**
+##### Artifacts - Attack monitoring
+
 * Updates to product backlogs and threat models to address attacks actually occurring in production.
 
 > Involves: IT Security
@@ -361,7 +390,8 @@ To properly address threats to production application development teams need acc
 
 To properly address accessibility and/or usability application development teams need access to telemetry data that gives metrics on how users are actually interacting with UI.
 
-**Artifacts**
+##### Artifacts - Accessibility and Usability monitoring
+
 * Updates to product backlogs to address UI accessibility and usability concerns based on actual use in production
 
 > Involves: Testing & Accessibility
@@ -370,13 +400,13 @@ To properly address accessibility and/or usability application development teams
 
 In a Dev-Sec-Ops culture, development teams are responsible for the planning, development, operation and maintenance of reliable, secure and accessible software that the team produces.
 
-Development team size should be small, between five to twelve members. 
-Keeping teams small reduces the occurrence of internal team communications errors/bottlenecks. 
+Development team size should be small, between five to twelve members.
+Keeping teams small reduces the occurrence of internal team communications errors/bottlenecks.
 
 All members of these small teams are required to have a solid knowledge of all aspects of their software products Dev-Sec-Ops life cycles.
 This ‘end-to-end’ team responsibility will require that development team members develop cross-functional skills (development, testing, security, operations) so that the development team is self-sufficient in all stages of the Dev-Sec-Ops life cycle.
 
-It is important to note that the level of knowledge for various Dev-Sec-Ops skills will vary on a team-by-team basis. 
+It is important to note that the level of knowledge for various Dev-Sec-Ops skills will vary on a team-by-team basis.
 For example, a team who’s’ products are base on cloud Platform as a service offerings will need less in depth operational skills than a team who’s products require more cloud Infrastructure as a service.
 
 To help teams develop the cross-functional skills required for Dev-Sec-Ops teams will designate one or more team members as ‘Team Champion’ for specific skills required by the team.
@@ -384,18 +414,20 @@ To help teams develop the cross-functional skills required for Dev-Sec-Ops teams
 ### Team Champions
 
 A Team Champion’s role is to:
+
 * Be a coach for other team members as they gain new cross-functional skills.
 * Be an active participant in respective Community of Practice – sharing team experiences and learning new practices in specific skill areas to bring back to their team.
-*	Provide guidance to team members on where to find resources related to specific skills.  
+* Provide guidance to team members on where to find resources related to specific skills.
+
 I.e. Online learning, Available training, Community of Practice resources.
 
 A Team Champion is not:
-*	To be the only team member with a specific skill set on a Dev-Sec-Ops team.
-*	Expected to take on all team tasks related to the specific skill for which they are the champion.
-*	The only champion of all skillsets on a team.
+
+* To be the only team member with a specific skill set on a Dev-Sec-Ops team.
+* Expected to take on all team tasks related to the specific skill for which they are the champion.
+* The only champion of all skillsets on a team.
 
 When the Team Champion’s find that their teams coaching requirements are beyond their current capabilities they can:
+
 1. Reach out to the community of practice to see if other teams can provide coaching/guidance
-2.	Ask the Centre of Excellence for coaching from a subject matter expert resource.
-
-
+1. Ask the Centre of Excellence for coaching from a subject matter expert resource.

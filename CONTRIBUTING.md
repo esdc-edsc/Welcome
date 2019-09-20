@@ -1,24 +1,20 @@
-# How to contribute
+# Contributing
 
-Helping keep this project up to date, helps others know what's going on in the IITB world and where to find needed information. So thank you for helping to maintain it!
+## How to Contribute
 
-## Getting involved
+When contributing, post comments and discuss changes you wish to make via Issues.
 
-If you're new to GitHub or Git don't worry, open an issue asking for some help and what you want to do. We'll be happy to help.
+Feel free to propose changes by creating Pull Requests. If you don't have write access, editing a file will create a Fork of this project for you to save your proposed changes to. Submitting a change to a file will write it to a new Branch in your Fork, so you can send a Pull Request.
 
-### Reporting
+If this is your first time contributing on GitHub, don't worry! Let us know if you have any questions.
 
-Reporting new additions though issues is key. This helps us keep track of all the work that is needed and wanted for this project.
+### Recommendations and Guides
 
-When opening new issues please use the template provided if they fit your request.  
-Templates avaliable:
+The “Welcome” project in ESDC org (master branch) used to publish recommendations and guides (how to).
+Draft documents can be created either in a branch in ESDC or a branch in the Fork on DevCoP (prefix with `draft-`).
+Initial draft doesn’t require review, but any changes to the draft require review via a PR.
+The publish of the doc will also have a final review via a PR.
 
-* **List Team Group** - We have a separate team group that should be added to the list.
+### Security
 
-### Developing
-
-#### Contributors
-
-You can fork the project, and make a pull request with your changes.  
-
-Please use the **Gernal** pull request template.
+**Do not post any security issues on the public repository!** See [SECURITY.md](SECURITY.md)
