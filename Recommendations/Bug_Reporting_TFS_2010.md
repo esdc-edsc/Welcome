@@ -1,7 +1,7 @@
   
 
-ESDC Development Community - Bug Reporting
-==========================================
+ESDC Development Community - Bug Reporting In TFS 2010
+======================================================
 
 **Warning**: This Recommendation may be out of date. Please be critical when reviewing the information. If you know details to be different that stated, please update them.
 
@@ -151,12 +151,12 @@ Below you will find the States and their available Reasons for the work item typ
 *   Identifies the application, component or module impacted
 *   It can be modified when the resolution of the bug is found. Example: the area selected at the creation of the Bug was "MSCBA Web" but after investigation the issue was in the Stored Procedure and the area was modified to reflect this.
 *   Do not use Area to group and/or track bugs raised by Security/Performance testing. The field "Classification" should be used for this.
-*   Guidelines can be found in the \[[TFS Project Setup Recommendation](http://architecture/SF-ML/CoP/CT%20%20TA/TFS%20Project%20Setup.aspx)\]
+*   Guidelines can be found in the \[[TFS Project Setup Recommendation](# )\]
 
 #### Iteration:
 
 *   Iterations are a way to identify the cycle/release/milestone/sprint you are working on.
-*   Guidelines can be found in the \[[TFS Project Setup Recommendation](http://architecture/SF-ML/CoP/CT%20%20TA/TFS%20Project%20Setup.aspx)\]
+*   Guidelines can be found in the \[[TFS Project Setup Recommendation](# )\]
 
 #### Classification:
 
@@ -186,7 +186,7 @@ A subjective rating of the impact of a bug on the project or software system. Fo
 *   These fields are used by the Queries to determine which bugs are ready for testing. Useful when a new deploy of the application is made.
 *   The values for the "Found In Build" and "Integrated In Build" fields should only be selected from their respective drop downs.
     *   These fields are automatically populated when the Build Server is used.
-    *   Optionally they can be populated manually via the Global List. \[[Instructions to populate manually](http://architecture/SF-ML/CoP/CT%20%20TA/How%20to%20-%20%20Manually%20Enter%20Build%20Number.aspx)\].
+    *   Optionally they can be populated manually via the Global List. \[[Instructions to populate manually](# )\].
     *   Note: These fields are populated with the builds from each Team Project you have access to and can become quite long.
 *   **Found in build:**
     *   Identifies the build in which the bug was found.
@@ -371,7 +371,7 @@ For future releases (Iterations), the queries can be copied and then the "Iterat
 
 More filters could be added to better meet your needs example: The "Area" could be added if you have multiple components released in this same iteration and need to isolate the work items.
 
-Visit our "[TFS Project Setup Recommendation](http://architecture/SF-ML/CoP/CT%20%20TA/TFS%20Project%20Setup.aspx)" for more details on Team Queries and naming convention.
+Visit our "[TFS Project Setup Recommendation](# )" for more details on Team Queries and naming convention.
 
 #### Active Bugs
 
@@ -500,8 +500,6 @@ Below is a template that should be used to populate the field "Steps to Reproduc
    **PROBLEM**
    On the **Search for CPP Retirement Application** page, the **First Name** and **Last Name** fields execute a case sensitive search.  This appears to be counterproductive to the efficiency of the application and may slow down the end users in production.
 
-   **URL:** [http://jisys.sade-edap.prv/ais-sia/vah-vha/10/start.do](http://jisys.sade-edap.prv/ais-sia/vah-vha/10/start.do)
-
    **Environment**: TST
    **Date of Occurrence:** 01-03-2016 14:22
    **USER**: sests06
@@ -511,7 +509,7 @@ Below is a template that should be used to populate the field "Steps to Reproduc
    # Open a Firefox browser instance
    # Navigate to GSS with the above URL
    # Log in to GSS
-   # Under the heading **Retirement Application(s) (RTRa)**, select the link titled [Search for a CPP Retirement Application](http://jisys.sade-edap.prv/ais-sia/vah-vha/10/accessRTRaAdmin_sec.do)
+   # Under the heading **Retirement Application(s) (RTRa)**, select the link titled [Search for a CPP Retirement Application](#)
    # Search for an application with the **Last Name** field using the search criteria _Roberts_
    # Note the results only include values with capital “R”
    # Search for an application with the **Last Name** field using the search criteria _roberts_
